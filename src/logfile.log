@@ -1,0 +1,30 @@
+/Users/henrietr/Documents/IronMan.obj str_3
+/Users/henrietr/C8_3DViewer_v1.0-1/src/back/obj/cube1.obj str_3
+Process:         OpenGL_1 [69457]
+Path:            /Volumes/VOLUME/*/OpenGL_1.app/Contents/MacOS/OpenGL_1
+Load Address:    0x10b1a5000
+Identifier:      com.yourcompany.OpenGL-1
+Version:         ???
+Code Type:       X86-64
+Platform:        macOS
+Parent Process:  leaks [69456]
+
+Date/Time:       2023-06-25 14:47:36.579 +0300
+Launch Time:     2023-06-25 14:47:16.000 +0300
+OS Version:      macOS 11.6.6 (20G624)
+Report Version:  7
+Analysis Tool:   /Applications/Xcode.app/Contents/Developer/usr/bin/leaks
+Analysis Tool Version:  Xcode 13.2.1 (13C100)
+
+Physical footprint:         31.0M
+Physical footprint (peak):  73.3M
+----
+
+leaks Report Version: 4.0
+Process 69457: 28821 nodes malloced for 8664 KB
+Process 69457: 2 leaks for 288 total leaked bytes.
+
+    2 (288 bytes) ROOT CYCLE: <QEventDispatcherUNIX 0x7fb63a6136f0> [16]
+       1 (272 bytes) ROOT CYCLE: <QEventDispatcherUNIXPrivate 0x7fb63a617fe0> [272]
+          CYCLE BACK TO <QEventDispatcherUNIX 0x7fb63a6136f0> [16]
+
